@@ -1,3 +1,4 @@
+HTML cat.html:
 <!DOCTYPE html>
 <html lang="it">
 <head>
@@ -5,12 +6,12 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 </head>
 <body style="text-align: center; font-family: Arial, sans-serif;">
-<h1>Astronomy Picture of the Day</h1>
-<h2>{{ title }}</h2>
-<p>{{ description }}</p>
-<img src="{{ image_url }}" alt="Immagine NASA" style="max-width: 80%; height:
-auto; margin: 20px auto;" />
-<br>
+<h1>Fatto funny sui gatti</h1>
+<p style="font-size: 20px; margin: 20px;">{{ fact }}</p>
+<form action="/cat/change" method="post">
+<button type="submit" style="padding: 10px 20px; font-size: 16px;">Cambia
+fatto</button>
+</form>
 <a href="/" style="margin-top: 20px; display: block;">Torna alla Home</a>
 </body>
 </html>

@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+    <title>Home</title>
+</head>
+<body>
+    <h1>Benvenuto</h1>
+    <p>Scegli una delle opzioni seguenti:</p>
+    <a href="{{ url_for('cat_home') }}">
+        <button>Vai ai fatti sui gatti</button>
+    </a>
+    <a href="{{ url_for('nasa_home') }}">
+        <button>Vai all'immagine della NASA</button>
+    </a>
+    
+</body>
+</html>
